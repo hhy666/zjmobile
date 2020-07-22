@@ -1,0 +1,25 @@
+.page_top{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.page_top_back{
+    display: flex;
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.page_title{
+    display: flex;
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}

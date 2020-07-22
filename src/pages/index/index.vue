@@ -1,6 +1,11 @@
 <template>
-  <view class="index">
-    <text>{{ msg }}</text>
+  <view class="page_top">
+    <view class="page_top_back" >
+      <button>{{back}}</button>
+    </view>  
+    <view class="page_title" >
+      <text>{{ title }}</text>
+    </view>
   </view>
 </template>
 
@@ -10,7 +15,8 @@ import './index.scss'
 export default {
   data () {
     return {
-      msg: 'Hello world!'
+      back:'\<',
+      title: '中检一天'
     }
   }
 }
