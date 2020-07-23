@@ -1,3 +1,5 @@
+const path = require('path');
+
 const config = {
   projectName: 'zjmobile',
   date: '2020-7-22',
@@ -58,6 +60,9 @@ const config = {
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
       }
+    },
+    alias:{
+      '@/static': path.resolve(__dirname, '..', 'static')
     }
   }
 }

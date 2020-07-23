@@ -13,7 +13,8 @@
             <text>{{value.word}}</text>
         </view>
         <view class="ttd_line_view" v-if="index % 4 != 3" >
-            <view class="ttd_line" ></view>
+            <!-- <view class="ttd_line" ></view> -->
+            <img :src=lineSrc width="5px" height="80%" />
         </view>
     </view>    
   </view>
@@ -21,11 +22,13 @@
 
 <script>
 import './todayTotal.scss'
+import linePng from '@/static/images/line.png'
 
 export default {
   name: 'todayTotal',
   data(){
     return {
+        lineSrc: linePng,
         ttdata:[{
             today:'+122',
             total:{w:'万单', n:174},
@@ -61,7 +64,9 @@ export default {
         }]
     }
   },
-  components: {},
+  components: {
+      
+  },
   created(){},
   mounted(){},
   methods: {}
