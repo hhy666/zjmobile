@@ -30,9 +30,13 @@ export default {
   },
   methods: {
     createEcharts: function(){
-      const chart = echarts.init(document.getElementById(this.ecid));
+      const cvs = document.getElementById(this.ecid);
+
+      const chart = echarts.init(cvs);
 
       chart.setOption(this.option);
+
+      window.onresize = chart.resize;
     }
   }
 }
