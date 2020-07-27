@@ -1,0 +1,45 @@
+.selectTab{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.selectTab .tab{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.selectTab .tab:nth-child(2){
+    flex: 0 0 28%;
+}
+
+.selectTab .tab .text{
+    display: flex;
+    font-size: 33px;
+    border: none;
+}
+
+.selectTab .tab .under_line{
+    display: flex;
+    height: 0;
+    width: 60%;
+    border-bottom: 1px solid #fff;
+}
+
+a.cur{
+    color: #577FF4;
+    
+}
+
+taro-view-core.cur{
+    border-bottom: 5px solid #577FF4 !important;
+}
