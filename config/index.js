@@ -62,7 +62,8 @@ const config = {
       }
     },
     alias:{
-      '@/static': path.resolve(__dirname, '..', 'static')
+      '@/static': path.resolve(__dirname, '..', 'static'),
+      '@node_modules':path.resolve(__dirname, '..', 'node_modules')
     }
   }
 }

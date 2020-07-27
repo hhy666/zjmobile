@@ -21,12 +21,20 @@
     <view class="today_total_msg" >
       <TodayTotal></TodayTotal>
     </view>
+    <view class="select_tab" >
+      <SelectTab></SelectTab>
+    </view>
+    <view class="select_tab_body" >
+      <Stbjt></Stbjt>
+    </view>
   </view>
 </template>
 
 <script>
 import './index.scss'
 import TodayTotal from '../todayTotal/totadyTotal.vue'
+import SelectTab from '../selectTab/selectTab.vue'
+import Stbjt from '../stbjt/stbjt.vue'
 
 export default {
   data () {
@@ -38,7 +46,12 @@ export default {
     }
   },
   components: {
-    TodayTotal: TodayTotal
+    TodayTotal: TodayTotal,
+    SelectTab: SelectTab,
+    Stbjt: Stbjt
+  },
+  mounted(){
+    
   },
   methods:{
       

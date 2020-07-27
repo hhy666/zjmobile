@@ -2,6 +2,10 @@ $topht: 46px;
 $topfsize: 20px;
 $width100: 100%;
 
+body, html{
+    font-size: 12px;
+}
+
 .index{
     height: auto;
     min-height: 800Px;
@@ -120,4 +124,25 @@ $topNextHt: 280px;
     border-radius: 5px;
     position: absolute;
     top: 170px;
+}
+
+.select_tab{
+    display: flex;
+    width: $width100;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 470px;
+}
+
+.select_tab_body{
+    display: flex;
+    width: $width100;
+    height: auto;
+    min-height: 800px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: baseline;
+    position: absolute;
+    top: 590px;
 }
