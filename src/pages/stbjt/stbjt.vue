@@ -58,6 +58,7 @@ export default {
     this.option = {
         legend:[{
           height:20,
+          top:20,
           itemWidth:10,
           itemHeight:10,
           data:legendData
@@ -65,8 +66,8 @@ export default {
         grid:[{
           left: 40,
           right: 40,
-          top: 30,
-          bottom: 30
+          top: 50,
+          bottom: 60
         }],
         xAxis:[{
           type: 'category',
