@@ -16,7 +16,7 @@ export default {
     return {
         tabData:[{
             name:'集团概况',
-            isCur:true
+            isCur:false
         },
         {
             name:'产品线概况',
@@ -30,8 +30,14 @@ export default {
         }]
     }
   },
+  props:{
+      isCur:Number,
+      resetIsCur:Function
+  },
   components: {},
-  created(){},
+  created(){
+      this.tabData[this.isCur].isCur=true;
+  },
   mounted(){
       
   },
@@ -41,6 +47,7 @@ export default {
               item.isCur=false;
           });
           this.tabData[index].isCur = true;
+          this.resetIsCur(index);
       }
   }
 }

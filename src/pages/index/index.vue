@@ -22,10 +22,13 @@
       <TodayTotal></TodayTotal>
     </view>
     <view class="select_tab" >
-      <SelectTab></SelectTab>
+      <SelectTab :isCur="isCur" :resetIsCur="resetIsCur" ></SelectTab>
     </view>
     <view class="select_tab_body" >
-      <Stbjt></Stbjt>
+      <stbjt v-if="isCur == 0" ></stbjt>
+      <cpxgk v-if="isCur == 1" ></cpxgk>
+      <jggk v-if="isCur == 2" ></jggk>
+      <khgk v-if="isCur == 3" ></khgk>
     </view>
   </view>
 </template>
@@ -34,7 +37,10 @@
 import './index.scss'
 import TodayTotal from '../todayTotal/totadyTotal.vue'
 import SelectTab from '../selectTab/selectTab.vue'
-import Stbjt from '../stbjt/stbjt.vue'
+import stbjt from '../stbjt/stbjt.vue'
+import cpxgk from '../cpxgk/cpxgk.vue'
+import jggk from '../jggk/jggk.vue'
+import khgk from '../khgk/khgk.vue'
 
 export default {
   data () {
@@ -42,19 +48,25 @@ export default {
       back:'<',
       title: '中检一天',
       dataDate: "数据更新截止 " + new Date().toISOString().slice(0,10) + ' ' + new Date().toTimeString().slice(0,8),
-      dataExplain: "数据说明"
+      dataExplain: "数据说明",
+      isCur:0
     }
   },
   components: {
     TodayTotal: TodayTotal,
     SelectTab: SelectTab,
-    Stbjt: Stbjt
+    stbjt: stbjt,
+    cpxgk: cpxgk,
+    jggk: jggk,
+    khgk: khgk
   },
   mounted(){
     
   },
   methods:{
-      
+      resetIsCur:function(ic){
+        this.isCur = ic;
+      }
   }
 }
 </script>
