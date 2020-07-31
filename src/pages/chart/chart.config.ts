@@ -1,9 +1,3 @@
-state = {
-    ec:{
-        lazyLoad:true
-    }
-};
-
 export default {
     navigationBarTitleText: '折线图',
     usingComponents: {

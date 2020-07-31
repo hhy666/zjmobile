@@ -45,7 +45,7 @@ const config = {
     }
   },
   h5: {
-    publicPath: '/',
+    publicPath: '/zjmobile/',
     staticDirectory: 'static',
     postcss: {
       autoprefixer: {
