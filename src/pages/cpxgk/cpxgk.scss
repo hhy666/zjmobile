@@ -1,0 +1,59 @@
+.cpxgk{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.cpxgk_part_1, .cpxgk_part_2,
+.cpxgk_part_3, .cpxgk_part_4,
+.cpxgk_part_5{
+    display: flex;
+    width: 96%;
+    height: 500px;
+    margin: 0% 2% 0 2%;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cpxgk_part_2,.cpxgk_part_3,
+.cpxgk_part_4,.cpxgk_part_5{
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.cpxgk_part_5{
+    height:auto;
+}
+
+.cpxgk_part_1_title, .cpxgk_part_2_title,
+.cpxgk_part_3_title, .cpxgk_part_4_title,
+.cpxgk_part_5_title{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: start;
+    flex: 1;
+    align-self: flex-start;
+    justify-content: flex-start;
+    padding:10px 0 0 30px;
+}
+
+.cpxgk_chart_gd{
+    display: flex;
+    width: 100%;
+    flex: 0 0 85%;
+    flex-grow:1 ;
+}
+
+.cpxgk_chart_je,.cpxgk_chart_cz,
+.cpxgk_chart_kh,.cpxgk_chart_gxyw{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    flex-direction: row;
+}
