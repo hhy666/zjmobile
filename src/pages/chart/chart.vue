@@ -23,7 +23,7 @@ export default {
      
   },
   created(){
-    this.ecid = new Date().getTime();
+    this.ecid = new Date().getMilliseconds()+new Date().getTime();
   },
   mounted(){
       this.createEcharts();
