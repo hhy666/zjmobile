@@ -3,14 +3,18 @@ $topfsize: 20px;
 $width100: 100%;
 
 body, html{
+    background-color: #F6F5FA;
     font-size: 12px;
 }
 
 .index, block{
     display: block;
-    height: auto;
-    min-height: 1820Px;
     background-color: #F6F5FA;
+}
+
+.index{
+    height: auto;
+    min-height: 100%;
 }
 
 .page_top{

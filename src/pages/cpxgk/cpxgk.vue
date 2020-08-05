@@ -28,7 +28,7 @@
         <text class="cpxgk_part_5_title" >{{cpxgkPart5Title}}</text>
         <!-- 各线业务 -->
         <view class="cpxgk_chart_gxyw" >
-          
+          <cpxywTable />
         </view>
       </view>
   </view>
@@ -39,6 +39,7 @@ import './cpxgk.scss'
 import { $ } from '@tarojs/extend'
 
 import chart from "../chart/chart.vue";
+import cpxywTable from '../cpxywTable/cpxywTable'
 
 export default {
   name: 'cpxgk',
@@ -56,7 +57,8 @@ export default {
     }
   },
   components: {
-    chart: chart
+    chart: chart,
+    cpxywTable: cpxywTable
   },
   created(){
     let color=['#9CD557','#F2D468','#E86562','#A071E5','#62D8D8'];
