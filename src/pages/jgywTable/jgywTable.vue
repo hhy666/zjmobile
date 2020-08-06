@@ -19,11 +19,11 @@
             <text class="tr_th_khs" >客户数</text>
           </view>
           <view class="tr_tr" v-for="(item,index) in tableData.gsDataAry" :key="index" >
-              <text class="tr_td_gsmc" >{{item.gsmc}}</text>
-              <text class="tr_td_ycsr" >{{item.ycsr}}</text>
-              <text class="tr_td_cb" >{{item.cb}}</text>
-              <text class="tr_td_zss" >{{item.zss}}</text>
-              <text class="tr_td_khs" >{{item.khs}}</text>
+              <text class="tr_td_gsmc" :class="{last: index == tableData.gsDataAry.length - 1}" >{{item.gsmc}}</text>
+              <text class="tr_td_ycsr" :class="{last: index == tableData.gsDataAry.length - 1}" >{{item.ycsr}}</text>
+              <text class="tr_td_cb" :class="{last: index == tableData.gsDataAry.length - 1}" >{{item.cb}}</text>
+              <text class="tr_td_zss" :class="{last: index == tableData.gsDataAry.length - 1}" >{{item.zss}}</text>
+              <text class="tr_td_khs" :class="{last: index == tableData.gsDataAry.length - 1}" >{{item.khs}}</text>
           </view>
       </view>
   </view>
