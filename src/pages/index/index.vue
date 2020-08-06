@@ -49,7 +49,7 @@ export default {
       title: '中检一天',
       dataDate: "数据更新截止 " + new Date().toISOString().slice(0,10) + ' ' + new Date().toTimeString().slice(0,8),
       dataExplain: "数据说明",
-      isCur:1
+      isCur:2
     }
   },
   components: {
