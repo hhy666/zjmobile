@@ -64,10 +64,10 @@
 
 .table_body .table_body_ocpx{
     display: flex;
-    width: calc(22.5% - 0Px);
+    width: calc(22.5% - 2Px);
     justify-content: center;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1Px solid #ccc;
     border-bottom: none;
     text-align: center;
 }
@@ -115,17 +115,20 @@
 }
 
 .table_body .table_body_tcpx{
-    width: calc(22.5% - 0Px);
+    width: calc(22.5% - 1Px);
+    border-right: 1Px solid #ccc;
 }
 
 .table_body .table_body_ycsr{
-    width: calc(16% - 0Px);
+    width: calc(16% - 1Px);
+    border-right: 1Px solid #ccc;
 }
 
 .table_body .table_body_cb,
 .table_body .table_body_zss,
 .table_body .table_body_khs{
-    width: calc(13% - 0Px);
+    width: calc(13% - 1Px);
+    border-right: 1Px solid #ccc;
 }
 
 .table_body .table_body_tcpx .td_tlcpx{

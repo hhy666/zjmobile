@@ -1,0 +1,73 @@
+.khgk{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.khgk_part_1, .khgk_part_2,
+.khgk_part_3, .khgk_part_4,
+.khgk_part_5, .khgk_part_6{
+    display: flex;
+    width: 96%;
+    height: 430px;
+    margin: 0% 2% 0 2%;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.khgk_part_2, .khgk_part_3,
+.khgk_part_4, .khgk_part_5,
+.khgk_part_6{
+    height: 380px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.khgk_part_6{
+    height: 780px;
+    margin-bottom: 10Px;
+}
+
+.khgk_part_1_title, .khgk_part_2_title,
+.khgk_part_3_title, .khgk_part_4_title,
+.khgk_part_5_title, .khgk_part_6_title{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: start;
+    flex: 1;
+    align-self: flex-start;
+    justify-content: flex-start;
+    padding:10px 0 0 30px;
+}
+
+.khgk_chart_khywQs{
+    display: flex;
+    width: 100%;
+    flex: 0 0 85%;
+    flex-grow:1 ;
+}
+
+.khgk_chart_gskh,
+.khgk_chart_jcjg,
+.khgk_chart_zfzz,
+.khgk_chart_gr,
+.khgk_chart_khgx{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    flex-direction: row;
+}
+
+.khgk_chart_ywcbBing_1, 
+.khgk_chart_ywcbBing_2{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
