@@ -1,0 +1,74 @@
+.khmsg{
+    width: 98%;
+    height: 100%;
+    margin:0 1%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.khmsg_chart{
+    width: 30%;
+    height: 60%;
+    margin-top: 1%;
+}
+
+.khmsg_ymd{
+    width: 45%;
+    height: 60%;
+    margin-left: 15%;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.khmsg_year, .khmsg_month, .khmsg_day{
+    font-size: 16Px;
+    color: #000;
+    font-weight: bold;
+}
+
+.khmsg_year .year{
+    font-size: 22Px;
+}
+
+.khmsg_month .month{
+    font-size: 17Px;
+}
+
+.khmsg_day .day{
+    font-size: 17Px;
+    color: #F90000;
+}
+
+.khmsg_wkkc{
+    width: 100%;
+    height: 35%;
+    margin-bottom: 2%;
+    background-color: #F9F9F9;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.khmsg_wkkc .wkkc_head,
+.khmsg_wkkc .wkkc_body{
+    width: 25%;
+    height: 40%;
+    color: #888888;
+    font-size: 16Px;
+}
+
+.khmsg_wkkc .wkkc_body{
+    height: 60%;
+    color: #000;
+}
+
+.khmsg_wkkc .wkkc_body .wkkc_body_num{
+    height: 100%;
+    font-size: 22Px;
+    font-weight: bold;
+    align-items: flex-start;
+}
+
+.khmsg_wkkc .wkkc_body .wkkc_body_unit{
+    font-size: 12Px;
+    font-weight: bold;
+}
