@@ -37,20 +37,19 @@
   "dependencies": {
     "@babel/runtime": "^7.7.7",
     "@tarojs/components": "3.0.5",
-    "@tarojs/extend": "^3.0.13",
     "@tarojs/runtime": "3.0.5",
     "@tarojs/taro": "3.0.5",
-    "vue": "^2.5.0",
-    "vue-template-compiler": "^2.5.0"
+    "vue-template-compiler": "^2.5.0",
+    "vue": "^2.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@tarojs/mini-runner": "3.0.5",
-    "@tarojs/webpack-runner": "^3.0.5",
+    "@tarojs/webpack-runner": "3.0.5",
     "@types/webpack-env": "^1.13.6",
     "@typescript-eslint/eslint-plugin": "^2.x",
     "@typescript-eslint/parser": "^2.x",
-    "babel-preset-taro": "^3.0.5",
+    "babel-preset-taro": "3.0.5",
     "eslint": "^6.8.0",
     "eslint-config-taro": "3.0.5",
     "eslint-plugin-vue": "^6.x",
